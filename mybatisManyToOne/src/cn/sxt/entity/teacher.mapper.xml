@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sxt.entity.teacher.mapper">
+<select id="getTeacher" resultType="cn.sxt.entity.Teacher">
+select * from teacher where id = #{id}
+</select>
+</mapper>
