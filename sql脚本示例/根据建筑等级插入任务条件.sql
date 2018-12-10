@@ -1,4 +1,5 @@
 DELETE FROM task_event WHERE event_kind_id  = 101 or event_kind_id  = 102;
+
 drop procedure if exists update_task_event;
 delimiter %%
 CREATE PROCEDURE update_task_event()
